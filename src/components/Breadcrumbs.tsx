@@ -44,7 +44,7 @@ export default function Breadcrumbs() {
     }
 
     setLinks(crumbs);
-  }, [router.pathname]);
+  }, [router.asPath]);
 
   return (
     <div
