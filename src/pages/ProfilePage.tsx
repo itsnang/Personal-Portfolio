@@ -24,14 +24,14 @@ export const ProfilePage = () => {
       </Typography>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 box-content gap-2">
         <div className="flex gap-6 flex-col p-4">
-          <p className="text-2xl whitespace-pre-line pl-4">
+          <p className="text-base lg:text-xl md:text-xl whitespace-pre-line pl-4">
             I&rsquo;m Lorn Samnang you can call me &lsquo;Chhay&rsquo;🦾, a 19
             years old, introverted nobody, a Software Developer, Mobile
             Developer, I also have experience in UX/UI design. I am highly
             perceptive and very imaginative by seeking inspiration in every
             moment and currently living in Phnom Penh, Cambodia.
           </p>
-          <p className="text-2xl  whitespace-pre-line pl-4">
+          <p className="text-base lg:text-xl md:text-xl whitespace-pre-line pl-4">
             My experience comes from working with tech companies. I have worked
             with a wide range of technologies, from mobile development to web
             development. I have a passion for learning and sharing my knowledge

@@ -23,7 +23,7 @@ export default function Project({ project }: { project: projectsType }) {
           </div>
         </div>
         <div className="flex flex-1 flex-col pt-4">
-          <Typography variant="h3">{project.title}</Typography>
+          <Typography variant="h4">{project.title}</Typography>
           <Typography variant="h6">{project.description}</Typography>
         </div>
 
