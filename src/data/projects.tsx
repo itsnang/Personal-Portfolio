@@ -20,15 +20,21 @@ export const projects: projectsType[] = [
     link: "https://kjeybook.vercel.app/",
     title: "Prutteka Web",
     description: `
-          Prutteka Flutter is a Mobile application that I've built using Flutter, Getx and Dart that i've integrate with prutteka web API.
-          This application is an application where the user find events and allows users to browse, create, and promote local events. Those include education event, exhibition event, sport event, charity events and more.
-          
-          This Mobile application is the result of my group for the bootcamp project.
+    Prutteka
+    a website that helps the people find events
+    and allows users to browse, create, and promote local
+    events. Those include education event, exhibition event,
+    sport event, charity events and more.
         `,
     technologies: [
       Technologies.nextjs,
       Technologies.tailwindcss,
       Technologies.typescript,
+      Technologies.aws,
+      Technologies.docker,
+      Technologies.expressJs,
+      Technologies.figma,
+      Technologies.firebase,
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/Screenshot%202023-11-09%20at%2012.59.27%20in%20the%20afternoon.png?alt=media&token=90f3bf85-7dd0-4c4e-9e88-9f6b238d6536",
@@ -49,9 +55,10 @@ export const projects: projectsType[] = [
           This Mobile application is the result of my group for the bootcamp project.
         `,
     technologies: [
-      Technologies.nextjs,
-      Technologies.tailwindcss,
-      Technologies.typescript,
+      Technologies.flutter,
+      Technologies.dart,
+      Technologies.figma,
+      Technologies.getX,
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/Screenshot_20230825-161423.png?alt=media&token=e4c8c6b6-6dfd-4d14-9c56-4640d37265e6",
@@ -66,15 +73,16 @@ export const projects: projectsType[] = [
     link: "https://kjeybook.vercel.app/",
     title: "Speed Test",
     description: `
-          Prutteka Flutter is a Mobile application that I've built using Flutter, Getx and Dart that i've integrate with prutteka web API.
-          This application is an application where the user find events and allows users to browse, create, and promote local events. Those include education event, exhibition event, sport event, charity events and more.
-          
-          This Mobile application is the result of my group for the bootcamp project.
+   Flutter Speed Test is a cutting-edge mobile application developed using the Flutter framework, designed to provide users with a seamless and visually appealing experience while testing their internet speed.
+    
+    This personal project aims to offer a comprehensive and accurate assessment of network performance on both iOS and Android devices.
         `,
     technologies: [
-      Technologies.nextjs,
-      Technologies.tailwindcss,
-      Technologies.typescript,
+      Technologies.flutter,
+      Technologies.dart,
+      Technologies.figma,
+      Technologies.getX,
+      Technologies.getXCleanArch,
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/Screenshot_20231109-125609.png?alt=media&token=450970fc-732a-4ff8-ae3f-ca654a9bc59f",

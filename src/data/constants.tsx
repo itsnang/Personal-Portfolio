@@ -3,22 +3,6 @@ export const Technologies = {
     name: "VueJS",
     logo: "https://vuejs.org/images/logo.png",
   },
-  vuex: {
-    name: "Vuex",
-    logo: "",
-  },
-  vuetify: {
-    name: "Vuetify",
-    logo: "https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png",
-  },
-  pinia: {
-    name: "Pinia",
-    logo: "https://pinia.esm.dev/logo.svg",
-  },
-  pocketbase: {
-    name: "Pocketbase",
-    logo: "https://pocketbase.io/images/logo.svg",
-  },
   tailwindcss: {
     name: "TailwindCSS",
     logo: "https://img.icons8.com/color/48/tailwindcss.png",
@@ -47,20 +31,28 @@ export const Technologies = {
     name: "Figma",
     logo: "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
   },
-  odoo: {
-    name: "Odoo",
-    logo: "",
+  aws: {
+    name: "Aws Web Service",
+    logo: "https://img.icons8.com/?size=512&id=33039&format=png",
   },
-  python: {
-    name: "Python",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+  docker: {
+    name: "Docker",
+    logo: "	https://img.icons8.com/?size=512&id=22813&format=png",
   },
-  xml: {
-    name: "XML",
-    logo: "",
+  mongoDb: {
+    name: "MongoDB",
+    logo: "	https://img.icons8.com/?size=512&id=74402&format=png",
   },
-  postgresql: {
-    name: "PostgreSQL",
-    logo: "https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg",
+  expressJs: {
+    name: "ExpressJs",
+    logo: "https://img.icons8.com/?size=512&id=kg46nzoJrmTR&format=png",
+  },
+  getX: {
+    name: "GetX",
+    logo: "https://res.cloudinary.com/strapi/image/upload/v1621261454/logo_vgoldp.png",
+  },
+  getXCleanArch: {
+    name: "GetX Clean Architecture",
+    logo: "https://res.cloudinary.com/strapi/image/upload/v1621261454/logo_vgoldp.png",
   },
 };
