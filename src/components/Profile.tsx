@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import { Contact } from "./Contact";
 import {
@@ -20,11 +20,22 @@ export const Profile: React.FC<ProfileProps> = ({
   position,
   className,
 }) => {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
     <>
       <div className={`flex flex-col gap-4 ${className}`}>
         <div className="relative h-36 w-36 md:h-40 md:w-40 ">
-          <Image src={image} alt="profile" className="rounded-full" fill />
+          <Image
+            loading={"lazy"}
+            onLoad={() => {
+              setIsLoading(false);
+            }}
+            src={image}
+            alt="profile"
+            className="rounded-full"
+            fill
+          />
         </div>
         <p className="text-3xl  font-medium mt-4">{name}</p>
         <p>&ldquo;Why nice girls hate me?&rdquo;</p>
