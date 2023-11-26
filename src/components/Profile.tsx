@@ -26,7 +26,8 @@ export const Profile: React.FC<ProfileProps> = ({
         <div className="relative h-36 w-36 md:h-40 md:w-40 ">
           <Image src={image} alt="profile" className="rounded-full" fill />
         </div>
-        <p className="text-3xl font-sans font-medium mt-4">{name}</p>
+        <p className="text-3xl  font-medium mt-4">{name}</p>
+        <p>"Why nice girls hate me?"</p>
         <p className="text-xl">{position}</p>
         <div className="flex flex-row gap-3 flex-wrap">
           <Contact

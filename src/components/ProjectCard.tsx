@@ -5,6 +5,8 @@ import Link, { LinkProps } from "next/link";
 import { StaticImageData } from "next/image";
 import Image from "next/image";
 import { Button } from "./Button";
+import { link } from "fs";
+import { url } from "inspector";
 
 type ProjectCardProps = {
   img: string | StaticImageData;
@@ -59,7 +61,9 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
                   {title}
                 </Link>
               </div>
-              <Button>View Detail</Button>
+              <Button as="link" href={href}>
+                View Detail
+              </Button>
             </>
           )}
         </div>

@@ -35,6 +35,7 @@ export const projects: projectsType[] = [
       Technologies.expressJs,
       Technologies.figma,
       Technologies.firebase,
+      Technologies.mongoDb,
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/Screenshot%202023-11-09%20at%2012.59.27%20in%20the%20afternoon.png?alt=media&token=90f3bf85-7dd0-4c4e-9e88-9f6b238d6536",
@@ -59,6 +60,7 @@ export const projects: projectsType[] = [
       Technologies.dart,
       Technologies.figma,
       Technologies.getX,
+      Technologies.getXCleanArch,
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/Screenshot_20230825-161423.png?alt=media&token=e4c8c6b6-6dfd-4d14-9c56-4640d37265e6",
@@ -82,7 +84,6 @@ export const projects: projectsType[] = [
       Technologies.dart,
       Technologies.figma,
       Technologies.getX,
-      Technologies.getXCleanArch,
     ],
     images: [
       "https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/Screenshot_20231109-125609.png?alt=media&token=450970fc-732a-4ff8-ae3f-ca654a9bc59f",

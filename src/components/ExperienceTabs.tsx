@@ -20,7 +20,7 @@ export const ExperienceTabs = () => {
             <Tab
               className={({ selected }) =>
                 classNames(
-                  "w-full rounded-lg py-2.5 font-sans text-xl font-medium leading-5  text-gray-500",
+                  "w-full rounded-lg py-2.5  text-xl font-medium leading-5  text-gray-500",
                   "ring-white/60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
                   selected ? "bg-blue-400 text-white shadow" : "text-blue-100 "
                 )
@@ -31,7 +31,7 @@ export const ExperienceTabs = () => {
             <Tab
               className={({ selected }) =>
                 classNames(
-                  "w-full rounded-lg py-2.5 font-sans text-xl font-medium leading-5  text-gray-500",
+                  "w-full rounded-lg py-2.5  text-xl font-medium leading-5  text-gray-500",
                   "ring-white/60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
                   selected ? "bg-blue-400 text-white shadow" : "text-blue-100 "
                 )
@@ -46,7 +46,7 @@ export const ExperienceTabs = () => {
                 <ImageContain alt="habbit" src="/assets/cellcard.jpg" />
                 <div className="flex gap-6 flex-col p-4">
                   <div>
-                    <Typography className="font-sans" variant="h4">
+                    <Typography variant="h4">
                       Junoir Mobile App Developer
                       <Link
                         className="pl-2 text-sky-400 hover:text-sky-500"
@@ -55,7 +55,7 @@ export const ExperienceTabs = () => {
                         @ Cellcard
                       </Link>
                     </Typography>
-                    <ul className="list-disc list-outside pl-8 text-2xl font-sans">
+                    <ul className="list-disc list-outside pl-8 text-2xl ">
                       <li>
                         Moving Dealer & DRE App from native code to Flutter and
                         Develop new features
@@ -66,7 +66,7 @@ export const ExperienceTabs = () => {
                   </div>
 
                   <div>
-                    <Typography className="font-sans" variant="h4">
+                    <Typography variant="h4">
                       Mobile App Developer Trainee
                       <Link
                         target="_blank"
@@ -76,7 +76,7 @@ export const ExperienceTabs = () => {
                         @ Cellcard
                       </Link>
                     </Typography>
-                    <ul className="list-disc list-outside pl-8 text-2xl font-sans">
+                    <ul className="list-disc list-outside pl-8 text-2xl ">
                       <li>
                         Moving Dealer & DRE App from native code to Flutter and
                         Develop new features
@@ -90,7 +90,7 @@ export const ExperienceTabs = () => {
               <div className="grid grid-cols-1 py-8 md:grid-cols-2 lg:grid-cols-2 box-content gap-2">
                 <ImageContain alt="habbit" src="/assets/sabaicode.jpg" />
                 <div className="flex gap-6 flex-col p-4">
-                  <Typography className="font-sans" variant="h4">
+                  <Typography variant="h4">
                     Selt Employed
                     <Link
                       target="_blank"
@@ -100,13 +100,13 @@ export const ExperienceTabs = () => {
                       @ Prutteka
                     </Link>
                   </Typography>
-                  <p className="text-2xl font-sans whitespace-pre-line pl-4">
+                  <p className="text-2xl  whitespace-pre-line pl-4">
                     Co-founded a website that helps the people find events and
                     allows users to browse, create, and promote local events.
                     Those include education event, exhibition event, sport
                     event, charity events and more.
                   </p>
-                  <p className="text-2xl pt-2 font-sans whitespace-pre-line pl-4">
+                  <p className="text-2xl pt-2  whitespace-pre-line pl-4">
                     <span className="font-medium">Skills:</span> React.js ·
                     Next.js · MongoDB · Express.js · Docker · AWS · Tailwind CSS
                     · TypeScript· Figma (Software)

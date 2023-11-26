@@ -4,11 +4,14 @@ import Image from "next/image";
 import React from "react";
 import { MainLayout } from "@/layout/MainLayout";
 import { Typography } from "@/components/Typography";
+import Breadcrumbs from "@/components/Breadcrumbs";
 
 export default function Project({ project }: { project: projectsType }) {
   return (
     <>
-      <MainLayout className="pt-10">
+      <MainLayout>
+        <Breadcrumbs />
+
         <div className="flex justify-center overflow-hidden rounded-2xl bg-gray-100">
           <div className="relative aspect-[2/1] w-full md:h-[28rem] md:w-auto">
             <Image
