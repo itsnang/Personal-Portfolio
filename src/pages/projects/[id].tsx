@@ -54,7 +54,13 @@ export default function Project({ project }: { project: projectsType }) {
         <div className="pt-8 grid w-full grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {project.images?.map((image, index) => (
             <div key={index}>
-              <img key={index} src={image} alt={project.title} />
+              <Image
+                width={400}
+                height={400}
+                key={index}
+                src={image}
+                alt={project.title}
+              />
             </div>
           ))}
         </div>
