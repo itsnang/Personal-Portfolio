@@ -25,7 +25,7 @@ export const ProfilePage = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 box-content gap-2">
         <div className="flex gap-6 flex-col p-4">
           <p className="text-2xl whitespace-pre-line pl-4">
-            Im Lorn Samnang you can call me &lsquo;Chhay&rsquo;🦾, a 19 years
+            I&m Lorn Samnang you can call me &lsquo;Chhay&rsquo;🦾, a 19 years
             old, introverted nobody, a Software Developer, Mobile Developer, I
             also have experience in UX/UI design. I am highly perceptive and
             very imaginative by seeking inspiration in every moment and
@@ -68,3 +68,4 @@ export const ProfilePage = () => {
     </>
   );
 };
+export default ProfilePage;
