@@ -12,7 +12,7 @@ export const ProfilePage = () => {
       <div className="bg-gradient-to-r  from-cyan-500 to-blue-500 w-full lg:h-72 md:h-72 h-56 block absolute left-0 "></div>
       <Profile
         className="items-center pt-36 lg:pt-52 md:pt-52"
-        name="Lorn Samnang"
+        name="Samnang Lorn"
         position="Software Developer | Mobile Developer | Tech Enthusiast"
         image="https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/IMG_20231024_095948_160.jpg?alt=media&token=6480b240-2aea-41c3-9982-1fe438d14bae"
       />
