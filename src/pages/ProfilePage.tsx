@@ -13,8 +13,8 @@ export const ProfilePage = () => {
       <Profile
         className="items-center pt-36 lg:pt-52 md:pt-52"
         name="Samnang Lorn"
-        position="Software Developer | Mobile Developer | Tech Enthusiast"
-        image="https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/IMG_20231024_095948_160.jpg?alt=media&token=6480b240-2aea-41c3-9982-1fe438d14bae"
+        position="Software Developer | Mobile App Developer"
+        image="https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/profile.png?alt=media&token=d7598393-c870-451b-aa80-f76697979822"
       />
       <Typography
         className="underline pt-10 font-sans underline-offset-8 decoration-cyan-100 decoration-[8px]"
