@@ -38,7 +38,15 @@ export default function Project({ project }: { project: projectsType }) {
                       items-center justify-start
                     `}
               >
-                {tech.logo && <img src={tech.logo} alt="" className="h-5" />}
+                {tech.logo && (
+                  <Image
+                    src={tech.logo}
+                    alt={tech.name}
+                    className="h-5 w-5"
+                    width={20}
+                    height={20}
+                  />
+                )}
                 {tech.name && <span>{tech.name}</span>}
               </div>
             );
