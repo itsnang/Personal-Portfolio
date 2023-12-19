@@ -13,7 +13,7 @@ export const ProfilePage = () => {
       <Profile
         className="items-center pt-36 lg:pt-52 md:pt-52"
         name="Samnang Lorn"
-        position="Software Developer | Mobile App Developer"
+        position="Software Engineer"
         image="https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/profile.png?alt=media&token=d7598393-c870-451b-aa80-f76697979822"
       />
       <Typography
