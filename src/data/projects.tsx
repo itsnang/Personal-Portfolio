@@ -17,7 +17,7 @@ export const projects: projectsType[] = [
   {
     id: "PrutekaWeb",
     poster: "/assets/prutteka.png",
-    link: "https://kjeybook.vercel.app/",
+
     title: "Prutteka Web",
     description: `
     Prutteka
@@ -47,7 +47,7 @@ export const projects: projectsType[] = [
   {
     id: "PrutekaFlutter",
     poster: "/assets/prutteka.png",
-    link: "https://kjeybook.vercel.app/",
+
     title: "Prutteka Flutter",
     description: `
           Prutteka Flutter is a Mobile application that I've built using Flutter, Getx and Dart that i've integrate with prutteka web API.
@@ -72,7 +72,7 @@ export const projects: projectsType[] = [
   {
     id: "speedtest",
     poster: "/assets/speedtest.png",
-    link: "https://kjeybook.vercel.app/",
+
     title: "Speed Test",
     description: `
    Flutter Speed Test is a cutting-edge mobile application developed using the Flutter framework, designed to provide users with a seamless and visually appealing experience while testing their internet speed.
