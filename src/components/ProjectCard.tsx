@@ -31,6 +31,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({
           <Image
             src={img}
             alt="title"
+            sizes="100%"
             fill
             className="object-cover"
             onLoad={() => {

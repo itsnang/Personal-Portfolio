@@ -14,7 +14,7 @@ export const ProfilePage = () => {
         className="items-center pt-36 lg:pt-52 md:pt-52"
         name="Samnang Lorn"
         position="Software Engineer"
-        image="https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/profile.png?alt=media&token=d7598393-c870-451b-aa80-f76697979822"
+        image="https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/profile.JPG?alt=media&token=6c0e6a53-f696-40f9-a868-f4fd8c131507"
       />
       <Typography
         className="underline pt-10 font-sans underline-offset-8 decoration-cyan-100 decoration-[8px]"
@@ -25,11 +25,10 @@ export const ProfilePage = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 box-content gap-2">
         <div className="flex gap-6 flex-col p-4">
           <p className="text-base lg:text-xl md:text-xl whitespace-pre-line lg:pl-4 md:pl-4">
-            I&rsquo;m Lorn Samnang you can call me &lsquo;Chhay&rsquo;🦾,
-            introverted nobody, a Software Developer, Mobile Developer, I also
-            have experience in UX/UI design. I am highly perceptive and very
-            imaginative by seeking inspiration in every moment and currently
-            living in Phnom Penh, Cambodia.
+            I&rsquo;m Lorn Samnang you can call me &lsquo;Chhay&rsquo;🎸,
+            introverted nobody, a Software Developer, Mobile Developer. I am
+            highly perceptive and very imaginative by seeking inspiration in
+            every moment and currently living in Phnom Penh, Cambodia.
           </p>
           <p className="text-base lg:text-xl md:text-xl whitespace-pre-line lg:pl-4 md:pl-4">
             My experience comes from working with tech companies. I have worked

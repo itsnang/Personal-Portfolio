@@ -29,15 +29,16 @@ export const Profile: React.FC<ProfileProps> = ({
   return (
     <>
       <div className={`flex flex-col gap-3 ${className}`}>
-        <div className="relative h-36 w-36 md:h-40 md:w-40 ">
+        <div className="relative h-44 w-44 md:h-44 md:w-44 lg:h-52 lg:w-52 ">
           <Image
+            sizes="100%"
             loading={"lazy"}
             onLoad={() => {
               setIsLoading(false);
             }}
             src={image}
             alt="profile"
-            className="rounded-full"
+            className="rounded-full object-cover"
             fill
           />
         </div>
@@ -61,28 +62,6 @@ export const Profile: React.FC<ProfileProps> = ({
           >
             <DocumentTextIcon className="w-7 hover:text-pink-500" />
           </Link>
-
-          {/* <Contact
-            href={
-              "https://drive.google.com/file/d/1GrhW8yEPNfJpNbcoxVcPkCtezV0pd95m/view?usp=sharing"
-            }
-            icon={<DocumentTextIcon className="w-6" />}
-            title="Resume"
-          />
-          <Contact
-            href={"https://github.com/itsnang"}
-            icon={<GithubLogo />}
-            title="Github"
-          />
-          <Contact
-            href={"https://www.linkedin.com/in/itsnang/"}
-            icon={<LinkdinLogo />}
-            title="Linkdin"
-          />
-          <Contact
-            icon={<EnvelopeIcon className="w-6" />}
-            title="huotchhayyy@gmail.com"
-          /> */}
         </div>
       </div>
     </>

@@ -65,11 +65,19 @@ export const ExperienceTabs = () => {
                     </Typography>
                     <ul className="list-disc list-outside lg:pl-8 md:pl-8 pl-4 text-base lg:text-lg md:text-lg">
                       <li>
-                        Moving Dealer & DRE App from native code to Flutter and
-                        Develop new features
+                        Working hard to build CSA App from scratch with feature
+                        like My Outlet, Home Page, Route PlantLogin, More Page,
+                        Change Language, and Sale Report.
                       </li>
-                      <li>Building a Web App Using NuxtJs</li>
-                      <li>Implemented Speed Test in Dealer App </li>
+
+                      <li>
+                        Implemented Speed Test in Dealer App, improved the UI,
+                        implemented Google Analytics and Mixpanel.
+                      </li>
+                      <li>
+                        Working on rush project on time and learn to new Web
+                        Platform Quickly
+                      </li>
                     </ul>
                   </div>
 
