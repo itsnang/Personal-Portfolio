@@ -1,7 +1,7 @@
 export const Technologies = {
   vuejs: {
     name: "VueJS",
-    logo: "https://vuejs.org/images/logo.png",
+    logo: "https://img.icons8.com/?size=512&id=rY6agKizO9eb&format=png",
   },
   tailwindcss: {
     name: "TailwindCSS",
@@ -37,11 +37,11 @@ export const Technologies = {
   },
   docker: {
     name: "Docker",
-    logo: "	https://img.icons8.com/?size=512&id=22813&format=png",
+    logo: "https://img.icons8.com/?size=512&id=22813&format=png",
   },
   mongoDb: {
     name: "MongoDB",
-    logo: "	https://img.icons8.com/?size=512&id=74402&format=png",
+    logo: "https://img.icons8.com/?size=512&id=nn5BRPhPpKAT&format=png",
   },
   expressJs: {
     name: "ExpressJs",
@@ -54,5 +54,9 @@ export const Technologies = {
   getXCleanArch: {
     name: "GetX Clean Architecture",
     logo: "https://res.cloudinary.com/strapi/image/upload/v1621261454/logo_vgoldp.png",
+  },
+  NuxtJs: {
+    name: "NuxtJs",
+    logo: "	https://img.icons8.com/?size=96&id=nvrsJYs7j9Vb&format=png",
   },
 };

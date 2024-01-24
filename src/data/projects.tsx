@@ -91,4 +91,28 @@ export const projects: projectsType[] = [
       "https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/Screenshot_20231109-125646.png?alt=media&token=fc035631-5bed-4a1f-ac6f-d326e54e2960",
     ],
   },
+  {
+    id: "fakestore",
+    poster: "/assets/fakestore.png",
+
+    title: "Fake store",
+    description: `
+    This website is part of a learning project, and the data you see is powered by a fake API specifically created for practicing Nuxt.js development.
+
+    As we continue to improve and enhance our skills in building web applications with Nuxt.js
+        `,
+    technologies: [
+      Technologies.vuejs,
+      Technologies.NuxtJs,
+      Technologies.figma,
+      Technologies.tailwindcss,
+      Technologies.typescript,
+    ],
+    images: [
+      "https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/Screenshot%202024-01-24%20at%206.52.30%20in%20the%20evening.png?alt=media&token=df42c54c-78db-4370-bd4d-525b57466611",
+      "https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/Screenshot%202024-01-24%20at%207.14.20%20in%20the%20evening.png?alt=media&token=ab667a42-0742-456d-bbdc-930defe759b6",
+      "https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/Screenshot%202024-01-24%20at%206.53.21%20in%20the%20evening.png?alt=media&token=5d214d26-70bc-468f-aea4-6ed62151230a",
+      "https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/Screenshot%202024-01-24%20at%206.53.49%20in%20the%20evening.png?alt=media&token=e2cda641-f9b8-4738-8c14-f07c66f5baef",
+    ],
+  },
 ];
