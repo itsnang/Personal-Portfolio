@@ -57,6 +57,6 @@ export const Technologies = {
   },
   NuxtJs: {
     name: "NuxtJs",
-    logo: "	https://img.icons8.com/?size=96&id=nvrsJYs7j9Vb&format=png",
+    logo: "https://img.icons8.com/?size=96&id=nvrsJYs7j9Vb&format=png",
   },
 };
