@@ -43,8 +43,8 @@ export const ExperienceTabs = () => {
           </Tab.List>
           <Tab.Panels>
             <Tab.Panel>
-              <div className="grid grid-cols-1 pt-8 md:grid-cols-1 lg:grid-cols-2 box-content gap-2">
-                <div className="relative aspect-[2/1] w-full overflow-hidden rounded-xl">
+              <div className="grid grid-cols-1 items-center pt-8 md:grid-cols-1 lg:grid-cols-2 box-content gap-2">
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl">
                   <Image
                     alt="habbit"
                     src="/assets/cellcard.jpg"
@@ -65,18 +65,26 @@ export const ExperienceTabs = () => {
                     </Typography>
                     <ul className="list-disc list-outside lg:pl-8 md:pl-8 pl-4 text-base lg:text-lg md:text-lg">
                       <li>
-                        Working hard to build CSA App from scratch with feature
-                        like My Outlet, Home Page, Route PlantLogin, More Page,
-                        Change Language, and Sale Report.
+                        Developed the Cellcard Sales Force Application:
+                        Development of the Cellcard Sales Force App from
+                        scratch, designing and implementing core functionalities
+                        to enhance sales operations.
                       </li>
 
                       <li>
-                        Implemented Speed Test in Dealer App, improved the UI,
-                        implemented Google Analytics and Mixpanel.
+                        Implemented Speed Test Feature: Integrated a speed test
+                        feature into the Dealer App, enabling real-time internet
+                        speed analysis
                       </li>
                       <li>
-                        Working on rush project on time and learn to new Web
-                        Platform Quickly
+                        Build rush project Cellcard Marketplace: For sale
+                        Tourist SIM and Products.
+                      </li>
+                      <li>
+                        Integrated Cellcard Payment Gateway (CCPG) and
+                        Analytics: Successfully implemented the Cellcard Payment
+                        Gateway (CCPG) in the Cellcard Marketplace, alongside
+                        Google Analytics and MoEngage.
                       </li>
                     </ul>
                   </div>
@@ -93,9 +101,10 @@ export const ExperienceTabs = () => {
                       </Link>
                     </Typography>
                     <ul className="list-disc list-outside lg:pl-8 md:pl-8 pl-4 text-base md:text-lg lg:text-lg">
+                      <li>Moved Dealer from Native Code to Flutter</li>
                       <li>
-                        Moving Dealer & DRE App from native code to Flutter and
-                        Develop new features
+                        Refactor and improve UI in Dealer App and Implement
+                        Google Analytics and Mixpanel
                       </li>
                     </ul>
                   </div>

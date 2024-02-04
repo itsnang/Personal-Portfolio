@@ -36,15 +36,16 @@ export default function Breadcrumbs() {
           };
         } else {
           return {
-            name: "Project",
+            name: crumb.charAt(0).toUpperCase() + crumb.slice(1),
             url: "/",
           };
         }
       });
     }
 
+    console.log(crumbs);
     setLinks(crumbs);
-  }, [router.asPath]);
+  }, [router.asPath, router.pathname]);
 
   return (
     <div

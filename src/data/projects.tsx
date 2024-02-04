@@ -99,7 +99,7 @@ export const projects: projectsType[] = [
     description: `
     This website is part of a learning project, and the data you see is powered by a fake API specifically created for practicing Nuxt.js development.
 
-    As we continue to improve and enhance our skills in building web applications with Nuxt.js
+    As I continue to improve and enhance my skills in building web applications with Nuxt.js
         `,
     technologies: [
       Technologies.vuejs,
