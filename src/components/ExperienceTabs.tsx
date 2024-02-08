@@ -55,7 +55,7 @@ export const ExperienceTabs = () => {
                 <div className="flex gap-6 flex-col p-4">
                   <div>
                     <Typography variant="h6">
-                      Junoir Mobile App Developer
+                      Mobile App Developer
                       <Link
                         className="pl-2 text-sky-400 hover:text-sky-500"
                         href="https://www.cellcard.com.kh/"
