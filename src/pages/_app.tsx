@@ -2,6 +2,7 @@ import { MainLayout } from "@/layout/MainLayout";
 import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
+import { Analytics } from "@vercel/analytics/react";
 
 import NProgress from "nprogress";
 import "nprogress/nprogress.css";
@@ -21,6 +22,8 @@ export default function App({ Component, pageProps }: AppProps) {
           content="Samnang is a software developer and cross platform developer based in Phnom Penh, Cambodia. He is a self-taught developer who loves to build things with code."
         />
       </Head>
+      <Analytics />
+
       <MainLayout>
         <Component {...pageProps} />
       </MainLayout>
