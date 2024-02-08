@@ -23,7 +23,7 @@ export const Profile: React.FC<ProfileProps> = ({
 }) => {
   const [isLoading, setIsLoading] = useState(true);
   const handleClickEmail = () => {
-    window.open("mailto:houtchhayyy@gmail.com");
+    window.open("mailto:samnanglorn.it@gmail.com");
   };
 
   return (
@@ -57,7 +57,7 @@ export const Profile: React.FC<ProfileProps> = ({
             <EnvelopeIcon className="w-8 hover:text-blue-600" />
           </button>
           <Link
-            href="https://drive.google.com/file/d/1Ap30TUQTz2b9xQ4omYWgZld6TK2EfDfe/view?usp=sharing"
+            href="https://drive.google.com/file/d/1_GlhsGO_LAT_ymzTIZwAJ5VRTgBVnfKi/view?usp=sharing"
             target="_blank"
           >
             <DocumentTextIcon className="w-7 hover:text-blue-500" />
