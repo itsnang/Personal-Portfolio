@@ -127,7 +127,7 @@ export const ExperienceTabs = () => {
                     <Link
                       target="_blank"
                       className="pl-2 text-sky-400 hover:text-sky-500"
-                      href="https://prutteka-web-git-development-hourmeng12.vercel.app/"
+                      href="https://www.facebook.com/100037145085529/videos/352897650501052/?__so__=permalink&locale=hi_IN&paipv=0&eav=AfbSJxbDKmudEZReWp48mop51rzVY15AJgxGGaGXU2cD-3K3P0VPhHX6FGcJ464gvwA&_rdr"
                     >
                       @ Prutteka
                     </Link>
