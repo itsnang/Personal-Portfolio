@@ -76,10 +76,7 @@ export const ExperienceTabs = () => {
                         feature into the Dealer App, enabling real-time internet
                         speed analysis
                       </li>
-                      <li>
-                        Build rush project Cellcard Marketplace: For sale
-                        Tourist SIM and Products.
-                      </li>
+                      <li>Build rush project Cellcard Marketplace</li>
                       <li>
                         Integrated Cellcard Payment Gateway (CCPG) and
                         Analytics: Successfully implemented the Cellcard Payment
