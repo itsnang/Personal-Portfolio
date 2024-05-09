@@ -14,7 +14,7 @@ export const ProfilePage = () => {
         className="items-center pt-36 lg:pt-52 md:pt-52"
         name="Samnang Lorn"
         position="Software Engineer"
-        image="https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/photo_2024-02-08_11-14-09.jpg?alt=media&token=c164b59d-5492-4963-920f-a36829037e22"
+        image="https://firebasestorage.googleapis.com/v0/b/todo-81bff.appspot.com/o/myprofile.jpg?alt=media&token=e83d02bf-4778-4196-be5c-1b4bdf0ba796"
       />
       <Typography
         className="underline pt-10 font-sans underline-offset-8 decoration-cyan-100 decoration-[8px]"
