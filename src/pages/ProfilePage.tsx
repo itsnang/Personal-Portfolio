@@ -5,11 +5,19 @@ import { ImageContain } from "../components/ImageContain";
 import { ExperienceTabs } from "../components/ExperienceTabs";
 import { ProjectCard } from "../components/ProjectCard";
 import { projects, projectsType } from "../data/projects";
+import Image from "next/image";
 
 export const ProfilePage = () => {
   return (
     <>
-      <div className="bg-gradient-to-r  from-cyan-500 to-blue-500 w-full lg:h-72 md:h-72 h-56 block absolute left-0 "></div>
+      <div className="w-full lg:h-72 md:h-72 h-56 block absolute left-0 ">
+        <Image
+          src="/assets/queenoftear.jpg"
+          alt="hero"
+          layout="fill"
+          objectFit="cover"
+        />
+      </div>
       <Profile
         className="items-center pt-36 lg:pt-52 md:pt-52"
         name="Samnang Lorn"
