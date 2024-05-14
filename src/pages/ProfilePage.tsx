@@ -10,9 +10,9 @@ import Image from "next/image";
 export const ProfilePage = () => {
   return (
     <>
-      <div className="w-full lg:h-72 md:h-72 h-56 block absolute left-0 ">
+      <div className="w-full lg:h-80 md:h-72 h-56 block absolute left-0 ">
         <Image
-          src="/assets/queenoftear.jpg"
+          src="/assets/kdrama.jpg"
           alt="hero"
           layout="fill"
           objectFit="cover"
